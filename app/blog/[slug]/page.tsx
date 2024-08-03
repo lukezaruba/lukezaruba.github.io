@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation'
 import { CustomMDX } from '../../components/mdx'
 import { formatDate, getBlogPosts } from '../../blog/utils'
 import { baseUrl } from '../../sitemap'
+import { serialize } from 'next-mdx-remote/serialize'
 
 type Params = {
   params: {
