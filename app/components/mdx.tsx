@@ -22,7 +22,7 @@ interface CodeProps {
   [key: string]: any;
 }
 interface CustomMDXProps {
-  source: MDXRemoteSerializeResult;
+  source: string;
   components?: Record<string, React.ComponentType<any>>;
 }
 
